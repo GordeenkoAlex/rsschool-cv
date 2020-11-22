@@ -1,0 +1,38 @@
+* {
+  background-color: rgb(200, 232, 240);
+  max-width: 1024px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pict {
+  font-size: 20px;
+}
+
+header {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 27px;
+}
+
+.toph {
+  float: none;
+  font-style: italic;
+  color: darkslategray;
+}
+
+.text {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    flex-direction: column;
+  }
+}
