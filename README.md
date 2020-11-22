@@ -1,1 +1,1 @@
-https://GordeenkoAlex.github.io/rsschool-cv/README.md
+https://GordeenkoAlex.github.io/rsschool-cv/cv.md
