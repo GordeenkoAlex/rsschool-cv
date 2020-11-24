@@ -1,38 +1,48 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
 * {
-  background-color: rgb(200, 232, 240);
-  max-width: 1024px;
+  box-sizing: border-box;
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  max-width: 1024px;
 }
 
-.pict {
-  font-size: 20px;
+main {
+  float: left;
+  width: 65%;
+  max-width: 1024px;
+  font-size: 24px;
+  background: #cff;
 }
-
-header {
-  font-size: 22px;
-}
-
-h2 {
-  font-size: 27px;
-}
-
 .toph {
-  float: none;
-  font-style: italic;
-  color: darkslategray;
+  float: left;
+  text-align: left;
+  width: 35%;
+  font-size: 24px;
+  background: #dcc;
+  text-align: center;
+  padding: 10px;
 }
 
-.text {
-  font-size: 20px;
+.flexibal-left {
+  max-width: 100%;
 }
 
-@media screen and (max-width: 1024px) {
-  body {
-    flex-direction: column;
+main,
+.toph {
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 600px) {
+  main,
+  .toph {
+    float: none;
+    width: 100%;
   }
 }
