@@ -6,4 +6,4 @@
 5. *In the future, it will be filled in.*
 6. **At the time of filling out the resume, I have no work experience.**
 7. Studied programming languages [there](https://ru.code-basics.com/).
-8. English at A1 level.*To improve my English proficiency, I use courses  [lingualeo.com](https://lingualeo.com)*.
+8. English at A1 level.*To improve my English proficiency, I use courses [lingualeo.com](https://lingualeo.com)*.
